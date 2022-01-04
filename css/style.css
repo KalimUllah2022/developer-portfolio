@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.half-width {
+    width: 50%;
 }
 
 h1 {
@@ -10,4 +19,33 @@ h1 {
 
 h1 span {
     color: orange;
+}
+
+section {
+    display: flex;
+    padding: 100px;
+}
+
+.sec_1 {
+    background-image: url(../css/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section.sec_1 img {
+    width: 80%;
+    padding-left: 5%;
+}
+
+section.sec_1 a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-image: linear-gradient(69deg, rgb(252, 169, 90), rgb(241, 100, 18));
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
