@@ -23,7 +23,7 @@ h1 span {
 
 .flexible-container {
     display: flex;
-    padding: 100px;
+    padding: 60px;
 }
 
 .sec_1 {
@@ -73,7 +73,13 @@ section.sec_3 {
     color: orange;
 }
 
+.sec_3 p {
+    font-size: 17px;
+    color: rgb(34, 34, 34);
+}
+
 .sec_3content_1 {
+    height: 300px;
     border-radius: 5px;
     padding: 30px;
     box-shadow: 15px 0 20px 10px #ddd;
